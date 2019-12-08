@@ -1,0 +1,27 @@
+- authors: P. Kirsanov, et. al.
+  title: >-
+    DISCOMAN: Dataset of Indoor SCenes for Odometry, Mapping And Navigation
+  conf: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019)
+
+- authors: S. Bykov, N. Ryzhenko N., A. Sorokin
+  title: Automated solution for preventing design rules violations at abutment stage for standard cells synthesis flow
+  conf: East-West Design & Test Symposium (EWDTS), 2016 IEEE. IEEE, 2016
+
+- authors: N. Ryzhenko, A. Sorokin, S. Bykov, M. Talalay
+  title: Minimization of Undesired Layout Patterns During Standard Cell Synthesis
+  conf: Problems of Advanced Micro- and Nanoelectronic Systems Development, 2014
+
+- authors: N. Ryzhenko, A. Sorokin, S. Bykov, M. Talalay
+  title: Synthesis of Memory Units Using a Description of Design Rules via Boolean
+    Functions of Layout Objects
+  conf: Problems of Advanced Micro- and Nanoelectronic Systems Development, 2014
+
+- authors: S. Bykov, V. Zhoga, V. Skakunov, V. Shurigyn
+  title: Algorithm for 3D point cloud analisys for video image processing
+  conf:  International Scientific-and-Technological Conference 'Extreme robotics',
+    'Politehnika-service', Saint-Petersburg (in Russian)
+
+- authors: S. Bykov, V. Leontev, V. Skakunov
+  title: Application of 3D point cloud analysis methods to computer vision systems in robotics
+  conf: VSTU News, 3, No 13, p. 18-21, 2012 (in Russian)
+

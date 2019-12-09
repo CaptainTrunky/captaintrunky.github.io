@@ -15,7 +15,7 @@
   
   <section class="content-section">
     <header class="section-header">
-      <h2>Experience</h2>
+      <hr><h2>Experience</h2><hr>
     </header>
 
     {% for job in site.data.experience %}
@@ -29,7 +29,7 @@
   </section>
   <section class="content-section">
     <header class="section-header">
-      <h2>Education</h2>
+      <hr><h2>Education</h2><hr>
     </header>
 
     {% for education in site.data.education %}
@@ -43,7 +43,7 @@
 
   <section class="content-section">
     <header class="section-header">
-      <h2>Skills</h2>
+      <hr><h2>Skills</h2><hr>
     </header>
     {% for skill in site.data.skills %}
       <div class="resume-item">
@@ -55,34 +55,48 @@
 
   <section class="content-section">
     <header class="section-header">
-      <h2>Publications</h2>
+      <hr><h2>Publications</h2><hr>
     </header>
     {% for pub in site.data.publications %}
       <div class="resume-item">
         <h3 class="resume-item-details">{{ pub.title }}</h4>
-        <p class="resume-item-copy">{{ pub.authors }} </p>
-        <p class="resume-item-copy">{{ pub.conf }}</p>
+	<p class="resume-item-copy">{{ pub.authors }}; {{ pub.conf }} </p>
       </div>
     {% endfor %}
   </section>
 
   <section class="content-section">
     <header class="section-header">
-      <h2>Courses</h2>
+      <hr> <h2>Showcase</h2> <hr>
     </header>
-      <ol>
-        {% for course in site.data.courses %}
-          {% if course.url %}
-            <div class="resume-item">
-              <li><p class="resume-item-copy">{{ course.title }} (<a href="{{ course.url }}">url</a>)</p></li>
-            </div>
-          {% else %}
-            <div class="resume-item">
-              <li><p class="resume-item-copy">{{ course.title }} </p></li>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </ol>
+      <div class="resume-item showcase-row">
+	<div class="showcase-column">
+          <ul class="papers-block">
+            {% for course in site.data.courses %}
+              {% if course.url %}
+		<li class="resume-item-copy ">
+	          <a class="showcase-link" href="{{ course.url }}">
+	            {{ course.title }}
+		  </a></li>
+              {% else %}
+                <li class="resume-item-copy">{{ course.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+	<div class="showcase-column">
+          <ul>
+            {% for demo in site.data.showcase %}
+              <li class="resume-item-copy ">
+	        <a class="showcase-link" href="{{ demo.url }}">
+	          {{ demo.title }}
+		</a>
+		<p> {{ demo.description }} </p>
+	      </li>
+            {% endfor %}
+          </ul>
+	</div>
+      </div>
   </section>
 
 </html>

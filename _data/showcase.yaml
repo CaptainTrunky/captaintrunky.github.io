@@ -1,9 +1,9 @@
-- title: BDD100k segamtic segmentation demo
-  description: Microframerwork for training a semantic segmentationm model for <a href="https://bdd-data.berkeley.edu/">BDD100K</a> outdoor dataset. Based on Pytorch, Sacred, Albumentations
+- title: BDD100k semantic segmentation demo
+  description: Microframework that trains a semantic segmentationm model for <a href="https://bdd-data.berkeley.edu/">BDD100K</a> outdoor dataset. Uses Pytorch, Sacred, Albumentations
   url: "https://github.com/CaptainTrunky/bdd100k_sem_seg"
 
 - title: C++ K-Means demo
-  description: Simple K-Means algorithm implementation using modern C++ and libeigen
+  description: K-Means algorithm implementation using modern C++ and libeigen3
   url: "https://github.com/CaptainTrunky/kmeans_demo"
           
 - title: Timestamping service based on blockchain

@@ -1,5 +1,5 @@
 - title: BDD100k semantic segmentation demo
-  description: Microframework that trains a semantic segmentationm model for <a href="https://bdd-data.berkeley.edu/">BDD100K</a> outdoor dataset. Uses Pytorch, Sacred, Albumentations
+  description: Microframework that trains a semantic segmentationm model for <a class="showcase-link" href="https://bdd-data.berkeley.edu/">BDD100K</a> outdoor dataset. Uses Pytorch, Sacred, Albumentations
   url: "https://github.com/CaptainTrunky/bdd100k_sem_seg"
 
 - title: C++ K-Means demo

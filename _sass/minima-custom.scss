@@ -38,8 +38,9 @@ h3 h4 h5 {
 }
 
 ul li {
-  margin-left: 25px;
+  margin-left: 5px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 @media print {
@@ -52,10 +53,13 @@ ul li {
 
 .resume-item-title {
   margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .resume-item-details {
   margin-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .resume-item {
@@ -63,6 +67,8 @@ ul li {
   font-size: 12px;
   text-align: justify;
   text-justify: inter-word;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .skill {
@@ -91,4 +97,32 @@ ul li {
 
 .highlighted {
   font-weight: bold;
+}
+
+.contact-info {
+  float: left;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  margin-top: 18px;
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: lightgray;
+}
+
+.contact-header {
+  font-size: 18px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contact-item {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;  
+}
+
+.personal-url {
+  all: unset;
 }

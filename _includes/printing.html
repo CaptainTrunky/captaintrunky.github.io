@@ -11,6 +11,20 @@
     <![endif]-->
   </head>
   
+  <div>
+  <section class="content-section">
+    <div class="contact-info">
+      <p class="resume-item contact-header">Personal Info</p>
+      <p class="resume-item contact-item">Sergey Bykov</p>
+      <p class="resume-item contact-item">+7 925 926 18 23, sergey.bykov88@gmail.com</p>
+      <hr>
+      <p class="resume-item contact-item">LinkedIn: <a class="personal-url" href="https://www.linkedin.com/in/sbykov">https://www.linkedin.com/in/sbykov</a></p>
+      <p class="resume-item contact-item">Stackoverflow: <a class="personal-url" href="https://stackoverflow.com/users/5823050">https://stackoverflow.com/users/5823050</a></p>
+      <p class="resume-item contact-item">Github: <a class="personal-url" href="https://github.com/CaptainTrunky">https://github.com/CaptainTrunky</a></p>
+
+    </div>
+  </section>
+
   <section class="content-section">
     <header class="section-header">
       <hr><h2>Experience</h2><hr>
@@ -20,12 +34,13 @@
       {% for job in site.data.experience %}
         <li>
           <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-            <p class="resume-item-title" itemprop="name">{{ job.company }}, {{ job.position }}, {{ job.duration }} <br>
-            {{ job.summary }}</p>
+            <p class="resume-item-title" itemprop="name">{{ job.company }}, {{ job.position }}, {{ job.duration }} </p>
+            <p class="resume-item-details"> {{ job.summary }}</p>
           </div>
         </li>
       {% endfor %}
     </ul>
+  </div>
 
   </section>
   <section class="content-section">
@@ -37,13 +52,15 @@
     {% for education in site.data.education %}
       <li>
       <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-        <p class="resume-item-title" itemprop="name">{{ education.uni }}, {{ education.degree }}, {{ education.year }}<br>
-        {{ education.summary }}</p>
+        <p class="resume-item-title" itemprop="name">{{ education.uni }}, {{ education.degree }}, {{ education.year }}</p>
+        <p>{{ education.summary }}</p>
       </div>
       </li>
     {% endfor %}
     </ul>
   </section>
+
+
 
   <section class="content-section">
     <header class="section-header">
@@ -72,7 +89,7 @@
     </ul>
   </section>
 
-  <div class="pagebreak"> </div>
+  <!-- <div class="pagebreak"> </div> -->
 
   <section class="content-section">
     <header class="section-header">

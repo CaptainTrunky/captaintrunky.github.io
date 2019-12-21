@@ -28,8 +28,8 @@ twitter_username: jekyllrb
 github_username:  captaintrunky
 
 # Build settings
-#theme: minima
-theme: jekyll-theme-tactile
+theme: minima
+#theme: jekyll-theme-tactile
 
 # plugins:
 #  - jekyll-feed

@@ -1,12 +1,12 @@
 - company: Huawei Research Russia Institute
   position: Senior Engineer
   duration: Dec, 2019 &mdash; up to date
-  summary: I'm working on research projects related to sensors on mobile devices, especially in image proccessing applications.
+  summary: Research and development for projects related to sensors on mobile devices, especially in image proccessing applications
 
 - company: Samsung Research Russia, AI Center
   position: Leading Engineer
   duration: Apr, 2018 &mdash; Dec, 2019
-  summary: I've been working on projects related to such topics as 3D modeling, deep learning, visual navigation and localization.
+  summary: Research and dvelopment for projects related to such topics as 3D modeling, deep learning, visual navigation and localization
     <ul class="resume-item-list">
       <li>Designed & deployed a prototype for large-scale syntetic dataset generation pipeline</li>
       <li>Participated in a live demo preparation related to visual navigation projects</li>
@@ -17,9 +17,9 @@
   position: Research Engineer
   duration: Jan, 2017 &mdash; March, 2018
   summary: >
-    Research and development in backup and cloud data storage systems.
+    Research and development in backup and cloud data storage systems
     <ul class="resume-item-list">
-      <li>Set an infrastructure for gathering and analyzing metrics & metadata in data centers at petabytes scale.</li>
+      <li>Set an infrastructure for gathering and analyzing metrics & metadata in data centers at petabytes scale</li>
       <li>Prototyped a tool for hardware failure prediction using ML</li>
       <li>Developed machine learning algorithms using secure multiparty computation framework</li>
     </ul>
@@ -28,30 +28,30 @@
   position: Research Scientist
   duration: Sep, 2013 &mdash; Dec, 2017
   summary: >
-    Research and development in EDA/ECAD systems, automatic synthesis and optimization of nano-scale topologies for integral circuit components. 
+    Research and development in EDA/ECAD systems, automatic synthesis and optimization of nano-scale topologies for integral circuit components
     <ul>
-      <li>Developed a methodology and software for preventing desing rules violations at standard cells' boundaries.</li>
-      <li>Developed an algorithm for generating standard cells' topologies considering special desing requirements for repeating structures.</li>
-      <li>Implemented several core algorithms for standard cells' topologies synthesis engine.</li>
+      <li>Developed a methodology and software for preventing desing rules violations at standard cells' boundaries</li>
+      <li>Developed an algorithm for generating standard cells' topologies considering special desing requirements for repeating structures</li>
+      <li>Implemented several core algorithms for standard cells' topologies synthesis engine</li>
     </ul>
 
 - company: Courier Drone 
   position: Software Developer
   duration: Oct, 2012 &mdash; Sep, 2013
   summary: >
-    A visual navigation system for a drone development.
+    A visual navigation system for a drone development
     <ul>
-      <li>Developed a Robotic Operating System's node for detecting a special marker in a videostream.</li> 
-      <li>Optimized the proposed node's performance for a specified hardware platfrom considering tight resource constraints.</li>
+      <li>Developed a Robotic Operating System's node for detecting a special marker in a videostream</li> 
+      <li>Optimized the proposed node's performance for a specified hardware platform considering tight resource constraints</li>
     </ul>
 
 - company: Intel Corporation
   position: Software Developer Intern 
   duration: Jul, 2012 &mdash; Aug, 2012
-  summary: Intel Advisor XE and parallel runtimes, e.g. Intel TBB and Intel OpenMP, integration.
+  summary: Intel Advisor XE and parallel runtimes, e.g. Intel TBB and Intel OpenMP, integration
 
 - company: Volgograd State Technical University, Singularis Lab
   position: Lab Assistant
   duration: Apr, 2012 &mdash; Jun, 2012
-  summary: Research and development of methods to move sheet and wire bodies by vector in CAD systems.
+  summary: Research and development of methods to move sheet and wire bodies by vector in CAD systems
 

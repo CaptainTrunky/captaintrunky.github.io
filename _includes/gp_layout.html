@@ -81,10 +81,11 @@
 
   <section class="content-section">
     <header class="section-header">
-      <hr> <h2>Showcase</h2> <hr>
+      <hr><h2>Showcase</h2><hr>
     </header>
       <div class="resume-item showcase-row">
 	<div class="showcase-column">
+          I've passed multiple MOOCs and offline courses covering the following topics:
           <ul class="papers-block">
             {% for course in site.data.courses %}
               {% if course.url %}
@@ -93,15 +94,16 @@
 	            {{ course.title }}
 		  </a></li>
               {% else %}
-                <li class="resume-item-copy">{{ course.title }}</li>
+                <li class="showcase-item-copy">{{ course.title }}</li>
               {% endif %}
             {% endfor %}
           </ul>
         </div>
 	<div class="showcase-column">
+	  My github profiles provides a few tiny projects made just for fun:
           <ul>
             {% for demo in site.data.showcase %}
-              <li class="resume-item-copy ">
+              <li class="showcase-item-copy ">
 	        <a class="showcase-link" href="{{ demo.url }}">
 	          {{ demo.title }}
 		</a>

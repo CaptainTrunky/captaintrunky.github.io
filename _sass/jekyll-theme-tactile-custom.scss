@@ -13,9 +13,12 @@ h2 {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.0;
-  color: #aaa;
   letter-spacing: -1px;
   text-align: center;
+}
+
+header h2 {
+  color: #d5000d;
 }
 
 ul li {
@@ -29,10 +32,12 @@ ul li {
 
 .resume-item-title {
   margin-left: 0px;
+  color: black;
 }
 
 .resume-item-details {
   margin-left: 0px;
+  color: black;
 }
 
 .resume-item {
@@ -64,4 +69,8 @@ ul li {
 
 .highlighted {
   font-weight: bold;
+}
+
+.showcase-item-copy {
+  padding-left: 5px;
 }

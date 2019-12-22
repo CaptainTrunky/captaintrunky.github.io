@@ -2,7 +2,7 @@
   description: deep learning, computational geometry, 3D reconstruction, SLAM, OpenCV, Open3D, ROS, Pytorch, TensorFlow
 
 - skill: Discrete Optimization
-  description: boolean satisfiability, constraint satisfaction, programming, formal methods, graph theory, local search, mixed integer programming
+  description: boolean satisfiability, constraint satisfaction programming, formal methods, graph theory, local search, mixed integer programming
 
 - skill: Languages
   description: C++17, Python, Haskell, Tcl
@@ -10,6 +10,6 @@
 - skill: Other
   description: algorithms, problem solving, scientific writing, Docker, CAD/EDA, Linux, Git, Atlassian
 
-- skill: Foreing Languages
+- skill: Foreign Languages
   description: English (TOEFL 94 / 120)
 

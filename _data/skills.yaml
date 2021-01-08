@@ -5,7 +5,7 @@
   description: boolean satisfiability, constraint satisfaction programming, formal methods, graph theory, local search, mixed integer programming
 
 - skill: Languages
-  description: C++17, Python, Haskell, Tcl
+  description: C++17, Python, Rust, Tcl
 
 - skill: Other
   description: algorithms, problem solving, scientific writing, Docker, CAD/EDA, Linux, Git, Atlassian
